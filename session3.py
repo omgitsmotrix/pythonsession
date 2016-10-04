@@ -7,7 +7,6 @@ Frederick's,British,$$$$$,*****,5"""
 arr = data.split('\n')
 
 # Line below is equivalent to: for line in data.split('\n'):
-#Test comment
 for line in arr:
 	(name, type, cost, like, dist) = line.split(',')
 	restaurants[name] = {"type": type, "cost": cost, "fave": like, "minutes":dist}
