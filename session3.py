@@ -6,7 +6,7 @@ Jamies,Italian,$$$,*,1
 Frederick's,British,$$$$$,*****,5"""
 arr = data.split('\n')
 
-# Equivalent to: for line in data.split('\n'):
+# Line below is equivalent to: for line in data.split('\n'):
 
 for line in arr:
 	(name, type, cost, like, dist) = line.split(',')
