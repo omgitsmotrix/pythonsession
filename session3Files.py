@@ -5,7 +5,7 @@ file_access.close()
 data = data.rstrip() #Will remove all white spaces from the "end", you can also specify a char
 
 arr = data.split('\n')
-
+print arr
 for line in arr:
 	(name, type, cost, like, dist) = line.split(',')
 	restaurants[name] = {"type": type, "cost": cost, "fave": like, "minutes":dist}
