@@ -8,7 +8,7 @@ with open('restaurantData.csv') as csvfile:
     for rest_details in reader:
 
         print "\nprinting with restaurant name:"
-        print rest_details # prints each restaurant detail in dictionary format
+        print rest_details # prints each restaurant details in dictionary format
 
         restaurant_name = rest_details['name'] # store restaurant name in a new container
 
